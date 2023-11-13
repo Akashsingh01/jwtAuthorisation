@@ -1,13 +1,13 @@
-package com.akash.jwtAuthorisation;
+package com.akash.jwtAuthorisation.springjwt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JwtAuthorisationApplication {
+public class SpringBootSecurityJwtApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(JwtAuthorisationApplication.class, args);
+    SpringApplication.run(SpringBootSecurityJwtApplication.class, args);
 	}
 
 }
